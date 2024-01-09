@@ -60,12 +60,12 @@ function App() {
           </div>
           <small class="source">
             <a
-              href="https://github.com/CodeCassie4169E1/wk7vanilla"
+              href="https://github.com/CodeCassie4169E1/reactweatherapp"
               target="_blank"
             >
               Open-source code
-            </a>
-            by
+            </a>{" "}
+            by{" "}
             <a
               href="https://www.shecodes.io/graduates/86602-cassie-sichmeller"
               target="_blank"
