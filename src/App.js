@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import SearchEngine from "./SearchEngine.js";
+import Weather from "./Weather.js";
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
             <a
               href="https://github.com/CodeCassie4169E1/reactweatherapp"
               target="_blank"
+              rel="noreferrer"
             >
               Open-source code
             </a>{" "}
@@ -69,6 +71,7 @@ function App() {
             <a
               href="https://www.shecodes.io/graduates/86602-cassie-sichmeller"
               target="_blank"
+              rel="noreferrer"
             >
               Cassie Sichmeller
             </a>
