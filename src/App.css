@@ -31,6 +31,9 @@ ul {
   font-size: small;
   top: -18px;
 }
+.units a {
+  text-decoration: none;
+}
 .weather-forecast {
   margin-bottom: 10px;
   margin-top: 10px;
