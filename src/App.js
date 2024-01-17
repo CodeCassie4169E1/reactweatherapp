@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import SearchEngine from "./SearchEngine.js";
-import Weather from "./Weather.js";
 
 function App() {
   return (
