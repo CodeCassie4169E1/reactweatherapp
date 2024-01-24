@@ -10,6 +10,7 @@ export default function SearchEngine(props) {
   function showTemperature(response) {
     setWeather({
       ready: true,
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
@@ -45,13 +46,13 @@ export default function SearchEngine(props) {
             id="city-input"
           />
         </div>
-        <div class="col-3">
+        <div className="col-3">
           <input type="submit" value="Search" className="btn btn-primary" />
         </div>
       </div>
       <h1 id="city">{city}</h1>
       <CurrentWeather data={weather} />
-      <WeatherForecast />
+      <WeatherForecast coordinates={weather.coordinates} />
     </form>
   );
 
