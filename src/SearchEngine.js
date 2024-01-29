@@ -40,7 +40,7 @@ export default function SearchEngine(props) {
         <div className="col-9">
           <input
             type="search"
-            placeholder="Type a city for the current weather.."
+            placeholder="Type a city for the current weather and forecast..."
             onChange={updateCity}
             className="form-control"
             id="city-input"

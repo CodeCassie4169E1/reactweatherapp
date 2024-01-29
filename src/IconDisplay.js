@@ -5,5 +5,5 @@ export default function IconDisplay(props) {
   let url = `https://openweathermap.org/img/wn/${props.icon}@2x.png`;
   axios.get(url);
 
-  return <img src={url} alt="Weather Icon" />;
+  return <img className="photo" src={url} alt="Weather Icon" />;
 }
