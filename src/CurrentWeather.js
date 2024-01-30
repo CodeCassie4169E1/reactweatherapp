@@ -2,6 +2,7 @@ import React from "react";
 import IconDisplay from "./IconDisplay";
 import FormattedDate from "./FormattedDate";
 import TempConversion from "./TempConversion";
+import "./CurrentWeather.css";
 
 export default function CurrentWeather(props) {
   return (
@@ -13,10 +14,11 @@ export default function CurrentWeather(props) {
       <div className="row">
         <div className="col-md-6">
           <div className="d-flex weather-temperature">
+            {" "}
             <IconDisplay icon={props.data.icon} />
             <div className="temp">
               <TempConversion celcius={props.data.temperature} />
-            </div>
+            </div>{" "}
           </div>
         </div>
         <div className="col-md-6">
