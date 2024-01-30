@@ -16,25 +16,25 @@ export default function TempConversion(props) {
         <strong id="temperature">{Math.round(props.celcius)}</strong>
         <span className="units">
           {" "}
-          °C |{" "}
+          °F |{" "}
           <a href="/" onClick={convertTemp}>
             {" "}
-            °F{" "}
+            °C{" "}
           </a>
         </span>
       </div>
     );
   } else {
-    let fahrenheit = (props.celcius * 9) / 5 + 32;
+    let fahrenheit = ((props.celcius - 32) * 5) / 9;
     return (
       <div>
         <strong id="temperature">{Math.round(fahrenheit)}</strong>
         <span className="units">
           <a href="/" onClick={showF}>
             {" "}
-            °C{" "}
+            °F{" "}
           </a>
-          | °F
+          | °C
         </span>
       </div>
     );

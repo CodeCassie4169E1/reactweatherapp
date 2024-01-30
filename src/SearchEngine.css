@@ -1,3 +1,6 @@
 h1 {
   text-transform: capitalize;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 60px;
 }
